@@ -21,10 +21,6 @@ import React from "react";
 // reactstrap components
 import {
   Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
   Container,
   Row,
   Col
@@ -32,6 +28,7 @@ import {
 
 // core components
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
+import TeamBios from "views/index-sections/TeamBios.js";
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -43,8 +40,6 @@ function LandingPage() {
   });
   return (
     <>
-      <LandingPageHeader />
-      <div className="main">
         <div className="section text-center">
           <Container>
             <Row>
@@ -74,15 +69,16 @@ function LandingPage() {
                 <div className="info">
                   <div className="icon icon-primary">
                     <i className="nc-icon nc-album-2" />
+                    
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Beautiful Gallery</h4>
+                    <h4 className="info-title">Photo-Ready</h4>
                     <p className="description">
-                      Spend your time generating new ideas. You don't have to
-                      think of implementing.
+                      Do you have a special something coming up?
+                     Let us help you find your glow. 
                     </p>
-                    <Button className="btn-link" color="primary" href="#pablo">
-                      See more
+                    <Button className="btn-link" color="primary" href="/ServicesPage">
+                      See Our Services
                     </Button>
                   </div>
                 </div>
@@ -93,13 +89,12 @@ function LandingPage() {
                     <i className="nc-icon nc-bulb-63" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
+                    <h4 className="info-title">Find Your Glow</h4>
                     <p>
-                      Larger, yet dramatically thinner. More powerful, but
-                      remarkably power efficient.
+                      Energizing Chemical Peels will leave you feeling fresh, energized, and confident. 
                     </p>
-                    <Button className="btn-link" color="primary" href="#pablo">
-                      See more
+                    <Button className="btn-link" color="primary" href="/ServicesPage">
+                      Find Your Favorite
                     </Button>
                   </div>
                 </div>
@@ -110,13 +105,12 @@ function LandingPage() {
                     <i className="nc-icon nc-chart-bar-32" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Statistics</h4>
+                    <h4 className="info-title">Ace Your Self-Care</h4>
                     <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
+                      A customized skincare regimen leaves you feeling confident and put-together. 
                     </p>
-                    <Button className="btn-link" color="primary" href="#pablo">
-                      See more
+                    <Button className="btn-link" color="primary" href="/ProductPage">
+                     The Products
                     </Button>
                   </div>
                 </div>
@@ -127,13 +121,12 @@ function LandingPage() {
                     <i className="nc-icon nc-sun-fog-29" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Delightful design</h4>
+                    <h4 className="info-title">A Brighter You</h4>
                     <p>
-                      Find unique and handmade delightful designs related items
-                      directly from our sellers.
+                      Allow <strong>The Skin Suite</strong> to guide you towards your most confident you!
                     </p>
-                    <Button className="btn-link" color="primary" href="#pablo">
-                      See more
+                    <Button className="btn-link" color="primary" href="/BookPage">
+                      Let's Do It 
                     </Button>
                   </div>
                 </div>
@@ -141,173 +134,7 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        <div className="section section-dark text-center bg-success">
-          <Container>
-            <h2 className="title">Let's talk about us</h2>
-            <Row>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/SkinSuite-DrPhoto.jpg")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Matt Jones, MD</CardTitle>
-                        <h6 className="card-category">Onsite Medical Director</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      <strong>Dr. Matt Jones, MD</strong> is a Board-Certified General Surgeon that spent 15 months studying Plastic and Reconstructive Surgery. He oversees the Jon Ric Medical Spa at the Charlotte location. He and his team perform a variety of services including Botox, Juvederm, CoolSculpting, Laser Hair Removal and more. 
-<br></br><br></br>
-                      He graduated from UNC-Chapel Hill and is an active member of the American Academy of Anti-Aging Medicine. 
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/SkinSuite-LaurenAboveHeadshot.jpg")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Lauren Clark</CardTitle>
-                        <h6 className="card-category">Owner, The Skin Suite</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                    Lauren Clark is the founder of The Skin Suite, a company she launched in 2017 through her association with Jon Ric Medical Spa.
-                      She obtained her education as an Aesthetician through The Aveda Institute.
-                      Lauren remains committed to her career and the community her family calls home.
-                      <br></br><br></br>
-                       She and husband, Lyndon, were married in 2014. 
-                       They have two sons, Henry and Maximus.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/SkinSuite-LeanneHeadshot.jpg")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Leann Williamson</CardTitle>
-                        <h6 className="card-category">Aesthetician</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                    Skin health has always been an interest of Leann's. 
-                      She graduated from Gaston College of Esthetics in 2014 
-                       and has since received certifications in Microdermabrasion, Microneedling, Chemical Peels, Dermaplane and HydraFacial MD.
-                  <br></br><br></br>
-                   Every face she sees is unique opportunity to listen to specific concerns and provide a personalized service.
-                     Her goal is to make your visit an enjoyable, relaxing and pleasant experience.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </div>
+      <TeamBios />
     </>
   );
 }

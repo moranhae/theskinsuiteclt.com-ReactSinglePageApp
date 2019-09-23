@@ -56,7 +56,7 @@ function IndexPageHeader() {
             <h1>Welcome To The Skin Suite</h1>
             <h3>Luxury Skincare in Charlotte, NC.</h3>
             <br />
-            <Button className="btn-round" color="primary" type="button" outline>
+            <Button className="btn-round" color="primary" href="/BookPage" type="button" outline>
               Schedule A Service
             </Button>
           </div>

@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader";
+import ProductBody from "views/index-sections/ProductBody.js"
 
 
 class ProductPage extends Component {
@@ -9,9 +10,7 @@ class ProductPage extends Component {
             <>
             <IndexNavbar />
             <ProfilePageHeader />
-            <div className="text-center">
-                <h1>TheSkinSuite</h1>
-            </div>
+            <ProductBody />
         </>
         );
     }

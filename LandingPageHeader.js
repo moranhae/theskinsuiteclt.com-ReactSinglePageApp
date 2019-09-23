@@ -57,7 +57,7 @@ function LandingPageHeader() {
             <h3>Book A Service Below.</h3>
             <br />
             
-            <Button className="btn-round" color="primary" type="button" outline>
+            <Button className="btn-round" color="primary" href="/BookPage"type="button" outline>
               Schedule A Service
             </Button>
           </div>

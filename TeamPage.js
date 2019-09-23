@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader";
+import TeamBios from "views/index-sections/TeamBios.js"
+import DemoFooter from "components/Footers/DemoFooter.js";
 
 class TeamPage extends Component {
     render(){
@@ -8,10 +10,10 @@ class TeamPage extends Component {
             <>
             <IndexNavbar />
             <ProfilePageHeader />
-            <div className="text-center">
-                <h1>TheSkinSuite</h1>
-            </div>
+            <TeamBios />
+            <DemoFooter />
         </>
+
        
             
             );

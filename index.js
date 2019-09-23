@@ -27,7 +27,7 @@ import "assets/demo/demo.css";
 // pages
 import Index from "views/Index.js";
 import ServicesPage from "views/examples/ServicesPage";
-import ProductPage from "views/examples/ServicesPage";
+import ProductPage from "views/examples/ProductPage";
 import TeamPage from "views/examples/TeamPage";
 import ReviewsPage from "views/examples/ReviewsPage";
 import BookPage from "views/examples/BookPage";

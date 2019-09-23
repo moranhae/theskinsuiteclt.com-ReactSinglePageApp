@@ -15,17 +15,15 @@ class SmallHeading extends Component {
         return ( 
             <>  
             <div className="typography-line" className="text-center" style={headingStyle}>
-            <h2>
             <br></br>
+            <h2>
              <div> Welcome to </div>
              <div><strong> The Skin Suite! </strong>
              </div>
             </h2>
             <br></br>
             <br></br>
-          </div>
-          <br></br>
-              <br></br>
+          </div>  
             </>
         );
     }

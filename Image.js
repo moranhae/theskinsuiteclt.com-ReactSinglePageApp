@@ -44,7 +44,7 @@ class Image extends Component {
                     src={require("assets/img/SkinceuticalsBoxes.jpg")}
                   /><br></br>
                   <p className="text-center">Customized Skincare Plans <br></br>// Tailored To You</p>
-                  <Button className="btn-round" color="primary">
+                  <Button className="btn-round" color="primary" href="/BookPage">
                       Book A Service
                     </Button>
                 </Col>

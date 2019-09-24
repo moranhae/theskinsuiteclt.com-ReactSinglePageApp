@@ -31,52 +31,56 @@ class ProductBody extends Component {
                   <Col md="3">
                     <div className="info">
                       <div className="description">
-                        <h4 className="info-title">CE Ferulic</h4>
+                        <h4 className="info-title"><strong>CE Ferulic </strong></h4>
                         <p className="description">
-                          Do you have a special something coming up?
-                         Let us help you find your glow. 
-                        </p>
-                        <Button className="btn-link" color="primary" href="/ServicesPage">
-                          See Our Services
-                        </Button>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col md="3">
-                    <div className="info">
-                      <div className="description">
-                        <h4 className="info-title">Sheer Defense</h4>
-                        <p>
-                          Energizing Chemical Peels will leave you feeling fresh, energized, and confident. 
-                        </p>
-                        <Button className="btn-link" color="primary" href="/ServicesPage">
-                          Find Your Favorite
-                        </Button>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col md="3">
-                    <div className="info">
-                      <div className="description">
-                        <h4 className="info-title">Simply Clean</h4>
-                        <p>
-                          A customized skincare regimen leaves you feeling confident and put-together. 
-                        </p>
-                        <Button className="btn-link" color="primary" href="/ProductPage">
-                         The Products
-                        </Button>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col md="3">
-                    <div className="info">
-                      <div className="description">
-                        <h4 className="info-title">Daily Moisture</h4>
-                        <p>
-                          Allow <strong>The Skin Suite</strong> to guide you towards your most confident you!
+                          An award-winning Vitamin C antioxidant serum proven to deliver unmatched protection against skin aging. <strong>
+                            CE Ferulic</strong> helps reduce the appearance of fine lines and wrinkles.
                         </p>
                         <Button className="btn-link" color="primary" href="/BookPage">
-                          Let's Do It 
+                          Try CE Ferulic
+                        </Button>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col md="3">
+                    <div className="info">
+                      <div className="description">
+                        <h4 className="info-title"><strong>Simply Clean</strong></h4>
+                        <p>
+                         A simple yet effective daily cleanser, <strong>Simply Clean </strong> 
+                         leaves the skin feeling clean, refreshed, and ready for any treatment. 
+                        </p>
+                        <Button className="btn-link" color="primary" href="/BookPage">
+                         Try Simply Clean
+                        </Button>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col md="3">
+                    <div className="info">
+                      <div className="description">
+                        <h4 className="info-title"><strong>Sheer Defense</strong></h4>
+                        <p>
+                        As a lightweight sunscreen,  <strong>Sheer Physical UV Defense SPF 50 </strong>  
+                        provides broad-spectrum UVA/UVB protection. This lightweight formula dries quickly, leaving a smooth matte finish. 
+                        </p>
+                        <Button className="btn-link" color="primary" href="/BookPage">
+                          Try Sheer Defense
+                        </Button>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col md="3">
+                    <div className="info">
+                      <div className="description">
+                        <h4 className="info-title"><strong>Daily Moisture</strong></h4>
+                        <p>
+                          A lightweight and pore-minimizing moisturiser, <strong>Daily Moisture </strong>
+                        is designed to hydrate and nourish all skin types. 
+                        Combine with Hydrating B5 Gel for maximum moisture retention. 
+                        </p>
+                        <Button className="btn-link" color="primary" href="/BookPage">
+                          Try Daily Moisture 
                         </Button>
                       </div>
                     </div>

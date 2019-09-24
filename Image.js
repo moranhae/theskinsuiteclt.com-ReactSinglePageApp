@@ -18,7 +18,10 @@ class Image extends Component {
                     src={require("assets/img/SkinceuticalsSunscreen.jpg")}
                   />
                   <br></br>
-                  <p className="text-center">Exclusive Partnership with <br></br> // SkinCeuticals Skincare.</p>
+                  <p className="text-center">Exclusive Partnership with <br></br> // SkinCeuticals Skincare.
+                  <br />
+                  </p>
+                  
                   <Button className="btn-round" color="primary" href="./ProductPage">
                      Shop Products
                     </Button>

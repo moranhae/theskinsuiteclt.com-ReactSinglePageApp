@@ -33,9 +33,9 @@ function LandingPageHeader() {
         pageHeader.current.style.transform =
           "translate3d(0," + windowScrollTop + "px,0)";
       };
-      window.addEventListener("scroll", updateScroll);
+      window.addEventListener("null", updateScroll);
       return function cleanup() {
-        window.removeEventListener("scroll", updateScroll);
+        window.removeEventListener("null", updateScroll);
       };
     }
   });
@@ -47,7 +47,7 @@ function LandingPageHeader() {
           backgroundImage: "url(" + require("assets/img/Lauren-golden-hour.jpg") + ")"
         }}
         className="page-header"
-        data-parallax={true}
+        data-parallax={false}
         ref={pageHeader}
       >
         <div className="filter" />

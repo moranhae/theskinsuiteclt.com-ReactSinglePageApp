@@ -4,6 +4,7 @@ import ProfilePageHeader from "components/Headers/ProfilePageHeader";
 
 
 
+
 class BookPage extends Component {
     render(){
         return(
@@ -12,6 +13,7 @@ class BookPage extends Component {
             <ProfilePageHeader />
             <div className="text-center">
                 <h1>TheSkinSuite</h1>
+                
             </div>
         </>
        

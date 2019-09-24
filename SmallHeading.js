@@ -6,9 +6,6 @@ var headingStyle ={
 
 };
 
-var subtitleStyle ={
-    color: 'green'
-};
 
 class SmallHeading extends Component {
     render() {
@@ -17,13 +14,16 @@ class SmallHeading extends Component {
             <div className="typography-line" className="text-center" style={headingStyle}>
             <br></br>
             <h2>
-             <div> Welcome to </div>
-             <div><strong> The Skin Suite! </strong>
+             <div><br /> <br /> Welcome to </div>
+             <div><strong> The Skin Suite! <br /> <br /> </strong>
              </div>
             </h2>
+            <div>
+            </div>
             <br></br>
             <br></br>
-          </div>  
+          </div> 
+           
             </>
         );
     }

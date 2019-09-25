@@ -32,7 +32,7 @@ function DemoFooter() {
               <li>
                 <a
                   href="/index.js"
-                  target="_blank"
+                  target="_self"
                 >
                   Home
                 </a>
@@ -40,7 +40,7 @@ function DemoFooter() {
               <li>
                 <a
                   href="/ServicesPage"
-                  target="_blank"
+                  target="_self"
                 >
                   Services
                 </a>
@@ -48,7 +48,7 @@ function DemoFooter() {
               <li>
                 <a
                   href="/BookPage"
-                  target="_blank"
+                  target="_self"
                 >
                   Book
                 </a>

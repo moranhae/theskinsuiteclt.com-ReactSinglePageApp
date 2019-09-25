@@ -27,7 +27,6 @@ import {
 } from "reactstrap";
 
 // core components
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import TeamBios from "views/index-sections/TeamBios.js";
 
 function LandingPage() {
@@ -56,7 +55,8 @@ function LandingPage() {
                   className="btn-round"
                   color="primary"
                   href="/ProductPage"
-                  onClick={e => e.preventDefault()}
+                  target="_self"
+                 
                 >
                   Shop Products
                 </Button>
@@ -77,7 +77,7 @@ function LandingPage() {
                       Do you have a special something coming up?
                      Let us help you find your glow. 
                     </p>
-                    <Button className="btn-link" color="primary" href="/ServicesPage">
+                    <Button className="btn-link"  target="_self" color="primary" href="/ServicesPage">
                       See Our Services
                     </Button>
                   </div>
@@ -93,7 +93,7 @@ function LandingPage() {
                     <p>
                       Energizing Chemical Peels will leave you feeling fresh, energized, and confident. 
                     </p>
-                    <Button className="btn-link" color="primary" href="/ServicesPage">
+                    <Button className="btn-link"   target="_self" color="primary" href="/ServicesPage">
                       Find Your Favorite
                     </Button>
                   </div>
@@ -109,7 +109,7 @@ function LandingPage() {
                     <p>
                       A customized skincare regimen leaves you feeling confident and put-together. 
                     </p>
-                    <Button className="btn-link" color="primary" href="/ProductPage">
+                    <Button className="btn-link"   target="_self" color="primary" href="/ProductPage">
                      The Products
                     </Button>
                   </div>
@@ -125,7 +125,7 @@ function LandingPage() {
                     <p>
                       Allow <strong>The Skin Suite</strong> to guide you towards your most confident you!
                     </p>
-                    <Button className="btn-link" color="primary" href="/BookPage">
+                    <Button className="btn-link"  target="_self" color="primary" href="/BookPage">
                       Let's Do It 
                     </Button>
                   </div>

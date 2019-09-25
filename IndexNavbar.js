@@ -73,7 +73,7 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/index"
-            target="_blank"
+            target="_self"
             title="The Skin Suite | Charlotte, NC"
           >
             The Skin Suite
@@ -122,7 +122,7 @@ function IndexNavbar() {
               <NavLink style={linkStyle}
                 data-placement="bottom"
                 href= "ServicesPage"
-                target="_blank"
+                target="_self"
                 title="See Our Services"
               >
                 Services
@@ -131,7 +131,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink style={linkStyle}
                 href ="ProductPage"
-                target="_blank"
+                target="_self"
                 title="SkinCeuticals Products"
               >
              Products
@@ -140,7 +140,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink style={linkStyle}
                 href="TeamPage"
-                target="_blank"
+                target="_self"
                 title="Our Estheticians"
               >
              Our Team
@@ -149,7 +149,7 @@ function IndexNavbar() {
             <NavItem>
               <NavLink style={linkStyle}
                 href="ReviewsPage"
-                target="_blank"
+                target="_self"
               >
              Reviews
               </NavLink>
@@ -159,7 +159,7 @@ function IndexNavbar() {
                 className="btn-round"
                 color="primary"
                 href="BookPage"
-                target="_blank"
+                target="_self"
               >
                 Schedule A Service
               </Button>

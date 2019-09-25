@@ -2,14 +2,6 @@ import React, {Component} from "react";
 // reactstrap components
 import {
     Button,
-    Label,
-    FormGroup,
-    Input,
-    NavItem,
-    NavLink,
-    Nav,
-    TabContent,
-    TabPane,
     Container,
     Row,
     Col
@@ -25,18 +17,18 @@ class ServicesBody extends Component {
                     <div className="text-center">
                 <h1>Services <strong>Menu</strong></h1><br />
             </div>
-                    <Row>
-
-                        <ServicesListing />
-                    </Row>
-                <Row>
+            <Row>
                   <Col className="ml-auto mr-auto text-center" md="6">
                     <br />
-                    <Button className="btn-round" color="primary" href="/BookPage">
+                    <Button className="btn-round"  target="_self" color="primary" href="/BookPage">
                      Ready? Book Now!
                     </Button>
                   </Col>
                 </Row>
+                    <Row>
+
+                        <ServicesListing />
+                    </Row>
                 <br />
                 
                 <br />

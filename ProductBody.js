@@ -36,7 +36,7 @@ class ProductBody extends Component {
                           An award-winning Vitamin C antioxidant serum proven to deliver unmatched protection against skin aging. <strong>
                             CE Ferulic</strong> helps reduce the appearance of fine lines and wrinkles.
                         </p>
-                        <Button className="btn-link" color="primary" href="/BookPage">
+                        <Button className="btn-link"  target="_self" color="primary" href="/BookPage">
                           Try CE Ferulic
                         </Button>
                       </div>
@@ -50,7 +50,7 @@ class ProductBody extends Component {
                          A simple yet effective daily cleanser, <strong>Simply Clean </strong> 
                          leaves the skin feeling clean, refreshed, and ready for any treatment. 
                         </p>
-                        <Button className="btn-link" color="primary" href="/BookPage">
+                        <Button className="btn-link"   target="_self" color="primary" href="/BookPage">
                          Try Simply Clean
                         </Button>
                       </div>
@@ -64,7 +64,7 @@ class ProductBody extends Component {
                         As a lightweight sunscreen,  <strong>Sheer Physical UV Defense SPF 50 </strong>  
                         provides broad-spectrum UVA/UVB protection. This lightweight formula dries quickly, leaving a smooth matte finish. 
                         </p>
-                        <Button className="btn-link" color="primary" href="/BookPage">
+                        <Button className="btn-link"  target="_self" color="primary" href="/BookPage">
                           Try Sheer Defense
                         </Button>
                       </div>
@@ -79,7 +79,7 @@ class ProductBody extends Component {
                         is designed to hydrate and nourish all skin types. 
                         Combine with Hydrating B5 Gel for maximum moisture retention. 
                         </p>
-                        <Button className="btn-link" color="primary" href="/BookPage">
+                        <Button className="btn-link"  target="_self" color="primary" href="/BookPage">
                           Try Daily Moisture 
                         </Button>
                       </div>

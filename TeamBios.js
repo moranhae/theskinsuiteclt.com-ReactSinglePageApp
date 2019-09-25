@@ -16,7 +16,7 @@ class TeamBios extends Component {
         return(
             <div className="section section-dark text-center bg-success">
             <Container>
-              <h2 className="title">Meet The Team</h2>
+              <h2 className="title">Meet <strong>The Team</strong></h2>
               <Row>
                 <Col md="4">
                   <Card className="card-profile card-plain">
@@ -46,15 +46,16 @@ class TeamBios extends Component {
                         className="btn-just-icon btn-primary"
                         color="link"
                         href="https://jonriccharlottemedicalspa.com/"
-                        onClick={e => e.preventDefault()}
-                      >
+                        target="_blank"
+                        
+                        >
                         <i className="fa fa-link" />
                       </Button>
                       <Button
                         className="btn-just-icon btn-primary ml-1"
                         color="link"
                         href="https://www.facebook.com/JonRicCharlotteMedicalSpa/"
-                        onClick={e => e.preventDefault()}
+                        target="_blank"
                       >
                         <i className="fa fa-facebook" />
                       </Button>
@@ -79,7 +80,7 @@ class TeamBios extends Component {
                         </div>
                       </a>
                       <p className="card-description text-center">
-                      Lauren Clark is the founder of The Skin Suite, a company she launched in 2017 through her association with Jon Ric Medical Spa.
+                      <strong>Lauren Clark </strong> is the founder of The Skin Suite, a company she launched in 2017 through her association with Jon Ric Medical Spa.
                         She obtained her education as an Aesthetician through The Aveda Institute.
                         Lauren remains committed to her career and the community her family calls home.
                         <br></br><br></br>
@@ -92,7 +93,7 @@ class TeamBios extends Component {
                         className="btn-just-icon btn-primary"
                         color="link"
                         href="https://www.instagram.com/theskinsuiteclt/"
-                        onClick={e => e.preventDefault()}
+                        target="_blank"
                       >
                         <i className="fa fa-instagram" />
                       </Button>
@@ -100,7 +101,7 @@ class TeamBios extends Component {
                         className="btn-just-icon btn-primary ml-1"
                         color="link"
                         href="https://www.facebook.com/theskinsuiteCLT/"
-                        onClick={e => e.preventDefault()}
+                        target="_blank"
                       >
                         <i className="fa fa-facebook" />
                       </Button>
@@ -126,7 +127,7 @@ class TeamBios extends Component {
                       </a>
                       <p className="card-description text-center">
                       Skin health has always been an interest of Leann's. 
-                        She graduated from Gaston College of Esthetics in 2014 
+                      <strong> Leann </strong> graduated from Gaston College of Esthetics in 2014 
                          and has since received certifications in Microdermabrasion, Microneedling, Chemical Peels, Dermaplane and HydraFacial MD.
                     <br></br><br></br>
                      Every face she sees is unique opportunity to listen to specific concerns and provide a personalized service.
@@ -138,7 +139,7 @@ class TeamBios extends Component {
                         className="btn-just-icon btn-primary"
                         color="link"
                         href="https://www.instagram.com/spaladyleann/"
-                        onClick={e => e.preventDefault()}
+                        target="_blank"
                       >
                         <i className="fa fa-instagram" />
                       </Button>
@@ -146,7 +147,7 @@ class TeamBios extends Component {
                         className="btn-just-icon btn-primary ml-1"
                         color="link"
                         href="https://www.facebook.com/SpaLadyLeann/"
-                        onClick={e => e.preventDefault()}
+                        target="_blank"
                       >
                         <i className="fa fa-facebook" />
                       </Button>
